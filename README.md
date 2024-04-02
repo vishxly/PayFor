@@ -1,6 +1,6 @@
-## PayEase
+## PayFor
 
-Welcome to the PayEase project! Our platform simplifies payment and transaction management, offering both backend and frontend solutions.
+Welcome to the PayFor project! Our platform simplifies payment and transaction management, offering both backend and frontend solutions.
 
 ### Backend Setup
 
