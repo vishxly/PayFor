@@ -27,8 +27,7 @@ function Signin() {
 
       localStorage.setItem("token", response.data.token);
 
-     
-      navigate(`/dashboard`); // Navigate to dashboard page with user data in URL
+      navigate(`/dashboard`); 
     } catch (error) {
       console.error("Signin failed:", error);
 
@@ -37,9 +36,9 @@ function Signin() {
   };
 
   return (
-    <div className="bg-slate-300  h-screen flex justify-center">
+    <div className="bg-white h-screen flex justify-center">
       <div className="flex flex-col justify-center ">
-        <div className="rounded-lg bg-white w-full sm:w-full p-5 h-90 text-center">
+        <div className="rounded-lg bg-gray-800 w-full sm:w-full p-5 h-90 text-center text-white">
           <Image />
           <Heading label={"Sign in"} />
           <SubHeading
